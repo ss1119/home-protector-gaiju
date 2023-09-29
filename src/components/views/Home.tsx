@@ -1,6 +1,7 @@
 import { Animals } from "../parts/Animals";
 import { Company } from "../parts/Company";
 import { Copyright } from "../parts/Copyright";
+import { Footer } from "../parts/Footer";
 import { Header } from "../parts/Header";
 import { Others } from "../parts/Others";
 import { Pages } from "../parts/Pages";
@@ -20,6 +21,7 @@ export const Home = () => {
       <Animals />
       <Company />
       <Copyright />
+      <Footer />
     </>
   );
 };

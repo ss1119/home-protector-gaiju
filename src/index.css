@@ -15,6 +15,10 @@
   width: 90px;
 }
 
+.mb-item2 {
+  margin-bottom: 3px;
+}
+
 @keyframes customAnimation {
   0% {
     transform: scale(1);

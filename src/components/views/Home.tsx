@@ -8,6 +8,7 @@ import { Pages } from "../parts/Pages";
 import { Questions } from "../parts/Questions";
 import { Reviews } from "../parts/Reviews";
 import { Steps } from "../parts/Steps";
+import { Descriptions } from "../templates/Descriptions";
 
 export const Home = () => {
   return (
@@ -15,10 +16,11 @@ export const Home = () => {
       <Header />
       <Pages />
       <Steps />
+      <Animals />
+      <Descriptions />
       <Reviews />
       <Others />
       <Questions />
-      <Animals />
       <Company />
       <Copyright />
       <Footer />

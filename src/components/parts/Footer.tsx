@@ -12,8 +12,6 @@ export const Footer = () => {
               src="assets/footer/item1.webp"
               alt="ご依頼受付中"
               className="w-32 h-auto mr-3 mb-1 xs:w-16 md:w-60"
-              width={300}
-              height={52}
             />
           </div>
           <div className="flex justify-center w-2/5">
@@ -21,8 +19,6 @@ export const Footer = () => {
               src="assets/footer/item2.webp"
               alt="現地調査無料"
               className="w-32 h-auto mb-item2 xs:w-16 md:w-60"
-              width={300}
-              height={52}
             />
           </div>
         </div>

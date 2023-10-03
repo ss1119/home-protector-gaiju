@@ -6,11 +6,11 @@ export const Header = () => {
   return (
     <div className="lg:sticky top-0 z-50">
       <div className="bg-opacity-90 flex items-center justify-end py-4 h-16 pr-1 bg-white md:h-20 md:justify-between lg:h-20 lg:flex-row lg:py-2 lg:pr-0">
-        <div className="flex items-center">
+        <div className="flex items-center justify-center">
           <img
             src="assets/icon.webp"
             alt="ホームプロテクターのアイコン"
-            className="w-12 h-auto mx-2 xs:w-12 md:w-16 md:ml-7 lg:w-20 lg:ml-10 lg:mr-3"
+            className="w-1/5 h-auto mx-3 xs:w-12 md:w-16 md:ml-7 lg:w-20 lg:ml-10 lg:mr-3"
             width={100}
             height={100}
           />

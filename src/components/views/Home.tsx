@@ -1,8 +1,10 @@
 import { Animals } from "../parts/Animals";
 import { Company } from "../parts/Company";
 import { Copyright } from "../parts/Copyright";
+import { Flow } from "../parts/Flow";
 import { Footer } from "../parts/Footer";
 import { Header } from "../parts/Header";
+import { Model } from "../parts/Model";
 import { Others } from "../parts/Others";
 import { Pages } from "../parts/Pages";
 import { Questions } from "../parts/Questions";
@@ -15,10 +17,12 @@ export const Home = () => {
     <>
       <Header />
       <Pages />
+      <Reviews />
+      <Flow />
       <Steps />
+      <Model />
       <Animals />
       <Descriptions />
-      <Reviews />
       <Others />
       <Questions />
       <Company />

@@ -3,6 +3,13 @@ export const Steps = () => {
     <div>
       <div className="flex justify-center">
         <img
+          src="assets/steps/step0.webp"
+          className="w-full h-auto lg:w-1/2"
+          alt="弊社ではこれらの方法で皆様を害獣からお守りしています。"
+        />
+      </div>
+      <div className="flex justify-center">
+        <img
           src="assets/steps/step1.webp"
           className="w-full h-auto lg:w-1/2"
           alt="駆除のステップ１は「追い出し」です。"

@@ -102,13 +102,6 @@ export const Pages = () => {
           alt="ホームプロテクターでは駆除率100%のため、被害が完治するまで責任を持って駆除させていただきます。"
         />
       </div>
-      <div className="flex justify-center">
-        <img
-          src="assets/pages/page14.webp"
-          className="w-full h-auto lg:w-1/2"
-          alt="他社との大きな違いはビジネスモデルです。仲介業者を挟まないため仲介手数料が発生せず、より安い料金で駆除を承ることができます。"
-        />
-      </div>
     </div>
   );
 };

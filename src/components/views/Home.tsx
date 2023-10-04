@@ -4,6 +4,7 @@ import { Copyright } from "../parts/Copyright";
 import { Flow } from "../parts/Flow";
 import { Footer } from "../parts/Footer";
 import { Header } from "../parts/Header";
+import { Last } from "../parts/Last";
 import { Model } from "../parts/Model";
 import { Others } from "../parts/Others";
 import { Pages } from "../parts/Pages";
@@ -25,6 +26,7 @@ export const Home = () => {
       <Descriptions />
       <Others />
       <Questions />
+      <Last />
       <Company />
       <Copyright />
       <Footer />

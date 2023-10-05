@@ -81,6 +81,7 @@ export const Pages = () => {
           alt="今すぐお電話にてご相談ください。"
         />
       </div>
+      <Call />
       <div className="flex justify-center">
         <img
           src="assets/pages/page11.webp"

@@ -15,13 +15,13 @@ export const Header = () => {
             height={100}
           />
           <div className="flex flex-col items-center">
-            <p className="font-bold inline-block border-double text-base xs:text-xs sm:text-lg md:text-xl lg:text-xl xl:text-4xl">
-              ホームプロテクター
-            </p>
-            <p className="font-bold text-left text-xs xs:text-center xs:leading-3 xs:pt-0.5 sm:text-sm md:text-base lg:text-xl lg:mt-1 xl:text-2xl">
+            <p className="font-bold text-left text-xs inline-block border-double xs:text-center xs:leading-3 xs:pt-0.5 sm:text-sm md:text-base lg:text-xl lg:mt-1 xl:text-2xl">
               害獣駆除
               <br className="hidden xs:flex" />
               プロフェッショナル
+            </p>
+            <p className="font-bold text-base xs:text-xs sm:text-lg md:text-xl lg:text-xl xl:text-4xl">
+              ホームプロテクター
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export const Header = () => {
         </div>
         {9 <= hour && hour < 19 && dayOfWeek !== 6 ? (
           <a href="tel:0668857656" className="hidden lg:flex mr-8">
-            <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
+            <div className="flex items-center shadow bg-orange-400 rounded-md pr-3 pl-2 py-1">
               <img
                 src="assets/phone.webp"
                 alt="電話マーク"
@@ -54,7 +54,7 @@ export const Header = () => {
           </a>
         ) : (
           <a href="tel:09060658318" className="hidden lg:flex mr-8">
-            <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
+            <div className="flex items-center shadow bg-orange-400 rounded-md pr-3 pl-2 py-1">
               <img
                 src="assets/phone.webp"
                 alt="電話マーク"
@@ -73,7 +73,7 @@ export const Header = () => {
           {9 <= hour && hour < 19 && dayOfWeek !== 6 ? (
             <a
               href="tel:0668857656"
-              className="bg-yellow-300 bg-opacity-80 shadow rounded p-0.5 ml-3 mr-1"
+              className="bg-orange-400 shadow rounded p-0.5 ml-3 mr-1"
             >
               <img
                 src="assets/phone.webp"
@@ -86,7 +86,7 @@ export const Header = () => {
           ) : (
             <a
               href="tel:09060658318"
-              className="bg-yellow-300 bg-opacity-80 shadow rounded p-0.5 ml-3 mr-1"
+              className="bg-orange-400 shadow rounded p-0.5 ml-3 mr-1"
             >
               <img
                 src="assets/phone.webp"

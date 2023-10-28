@@ -23,9 +23,9 @@ export const Footer = () => {
               <img
                 src="assets/footer/call1.webp"
                 alt="お電話はこちらから"
-                className="w-38 h-auto xs:w-28 md:w-72"
-                width={800}
-                height={237}
+                className="w-52 h-auto xs:w-36 md:w-96"
+                width={500}
+                height={150}
               />
             </a>
           ) : (
@@ -33,9 +33,9 @@ export const Footer = () => {
               <img
                 src="assets/footer/call2.webp"
                 alt="お電話はこちらから"
-                className="w-38 h-auto xs:w-28 md:w-72"
-                width={800}
-                height={237}
+                className="w-52 h-auto xs:w-36 md:w-96"
+                width={500}
+                height={150}
               />
             </a>
           )}

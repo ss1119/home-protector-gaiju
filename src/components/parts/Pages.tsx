@@ -1,4 +1,5 @@
 import { Call } from "./Call";
+import { Instagram } from "./Instagram";
 
 export const Pages = () => {
   return (
@@ -10,6 +11,7 @@ export const Pages = () => {
           alt="害獣の完全駆除は害獣の専門家に相談しよう"
         />
       </div>
+      <Instagram />
       <div className="flex justify-center">
         <img
           src="assets/pages/page2.webp"
